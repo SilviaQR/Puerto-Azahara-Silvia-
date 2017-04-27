@@ -20,7 +20,9 @@ public class Alquiler
         this.barco = barco;
     }
  
-    //Devuelve el precio del alquiler
+    /**
+     * 
+     */
     public float getPrecioAlquiler()
     {
         float precio = (diasOcupacion *((float)barco.getEslora() *VALOR_MULTIPLICADOR_ESLORA))+ ( VALOR_MULTIPLICADOR_BERNUA * barco.getCoeficienteBernua());

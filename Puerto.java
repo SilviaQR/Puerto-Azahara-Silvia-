@@ -3,7 +3,7 @@ public class Puerto
 {
     private Alquiler[] amarres;
     /**
-     * Constructor for objects of class Puerto
+     *
      */
     public Puerto()
     {
